@@ -1,12 +1,14 @@
 {"intents": [
-    {"intent": "AnswerIntent", "slots": [{"name": "Answer", "type": "AMAZON.NUMBER"}]},
-    {"intent": "DontKnowIntent"},
-    {"intent": "AMAZON.StartOverIntent"},
-    {"intent": "AMAZON.RepeatIntent"},
+    {"intent": "AMAZON.CancelIntent"},
     {"intent": "AMAZON.HelpIntent"},
-    {"intent": "AMAZON.YesIntent"},
+    {"intent": "AMAZON.NextIntent"},
     {"intent": "AMAZON.NoIntent"},
+    {"intent": "AMAZON.PauseIntent"},
+    {"intent": "AMAZON.PreviousIntent"},
+    {"intent": "AMAZON.RepeatIntent"},
+    {"intent": "AMAZON.ResumeIntent"},
+    {"intent": "AMAZON.StartOverIntent"},
     {"intent": "AMAZON.StopIntent"},
-    {"intent": "AMAZON.CancelIntent"}
+    {"intent": "AMAZON.YesIntent"}
   ]
 }
